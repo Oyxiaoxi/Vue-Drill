@@ -7,10 +7,14 @@ import './directives'
 import './components'
 import store from './store'
 
+// 引入由组件拓展插件
+import Message from './plugins/message'
+
 // 引入外部库拓展插件
 import VueSweetalert2 from './plugins/vue-sweetalert2'
 
 Vue.use(VueSweetalert2)
+Vue.use(Message)
 
 Vue.config.productionTip = false
 
