@@ -12,6 +12,12 @@
                     <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
+                    <li>
+                        <router-link to="/articles/create">
+                            <i class="fa fa-paint-brush text-md"></i>
+                            创作文章
+                        </router-link>
+                    </li>
                     <!-- 编辑资料 -->
                     <li>
                         <router-link to="/users/1/edit">

@@ -40,6 +40,8 @@ $fa-font-path: "~font-awesome/fonts/";
 // 表明webpack 对css路径别名进行处理，此处的~别名表示 node_modules/
 @import "~bootstrap-sass/assets/stylesheets/_bootstrap";
 @import "~font-awesome/scss/font-awesome";
+@import '~simplemde/dist/simplemde.min.css';
+@import '~highlight.js/styles/paraiso-dark.css';
 
 @import "./styles/main";
 @import "./styles/extra";

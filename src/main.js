@@ -13,6 +13,9 @@ import Message from './plugins/message'
 // 引入外部库拓展插件
 import VueSweetalert2 from './plugins/vue-sweetalert2'
 
+// 全局过滤器
+import './filters'
+
 Vue.use(VueSweetalert2)
 Vue.use(Message)
 
